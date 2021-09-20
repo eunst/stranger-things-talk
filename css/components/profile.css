@@ -1,0 +1,99 @@
+.friends__profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends__me {
+  font-size: 16px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends__me-img {
+  margin-right: 15px;
+  width: 90px;
+  border-radius: 40px;
+}
+
+.friends__me-name {
+  margin: 5px 0px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.friends__me-talk {
+  margin: 5px 0px;
+  font-size: 18px;
+  color: var(--soft-red)
+}
+
+.friends__you {
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.friends__you-img {
+  margin-right: 15px;
+  width: 70px;
+  border-radius: 30px;
+}
+
+.friends__you-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.friends__you-name {
+  margin: 6px 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.friends__you-talk {
+  font-size: 15px;
+  color: var(--soft-red);
+}
+
+.friends__you-text {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.friends__you-time {
+  margin: 5px 0px;
+}
+
+.friends__you-music {
+  font-size: 15px;
+  border-radius: 7px;
+  margin-right: 3px;
+  padding: 3px 9px 5px 9px;
+  color: var(--black);
+  background-color: var(--red);
+}
+
+.fa-music:last-child {
+  margin-right: 5px;
+  font-size: 13px;
+  background-color: var(--red);
+}
+
+.plus {
+  width: 80px;
+  border-radius: 35px;
+  font-size: 21px;
+}
+
+.line {
+  border-bottom: 1px solid var(--soft-red);
+}
+
+.chats .friends__you:nth-child(even) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}

@@ -1,0 +1,74 @@
+/* reset */
+@import "reset.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/title.css";
+@import "components/profile.css";
+@import "components/nav-bar.css";
+@import "components/dot-badge.css";
+@import "components/no-mobile.css";
+
+/* screens */
+@import "index.css";
+@import "friends.css";
+@import "chat.css";
+@import "find.css";
+@import "settings.css";
+@import "more.css";
+@import "drive.css";
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Rubik:wght@400;500;600&display=swap');
+
+/* icons */
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+
+:root {
+  --black: rgb(12, 12, 20);
+  --red: #cc2931;
+  --soft-red: rgba(204, 41, 49, 0.6);
+  --green: rgb(218, 255, 233);
+  --soft-green: rgba(218, 255, 233,0.6);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--red);
+  background-color: var(--black);
+}
+
+/* fixed를 하면 flex가 풀려서 감싸주는 용도 */
+.fix {
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.screen i:hover {
+  transform: scale(1.2);
+}
+
+/*스크롤 숨김*/
+@media screen {
+  body::-webkit-scrollbar,
+  body::-webkit-scrollbar-thumb {
+  display: none;
+  }
+}
+
+/* 스크롤 숨기기 전
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: var(--black);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--red);
+}
+*/
