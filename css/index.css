@@ -73,7 +73,6 @@
 .index__log-in input:not(input:nth-child(3)) {
   color: var(--red);
   border-bottom: 1px solid var(--red);
-  background-color: var(--black);
 }
 
 .index__log-in__btn {
