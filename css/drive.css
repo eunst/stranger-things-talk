@@ -7,7 +7,7 @@
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  justify-content: center;
   transform: translateX(600px);
   animation: floatPic 1s ease-in-out forwards;
 }
@@ -47,15 +47,16 @@
 }
 
 .drive__li img {
-  width: 460px;
   border-radius: 3px;
   margin-bottom: 15px;
 }
 
-.drive__date span {
-  margin-left: 5px;
+.drive__date {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .drive__li i {
+  margin-right: 10px;
   color: var(--green)
 }
